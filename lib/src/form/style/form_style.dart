@@ -51,9 +51,9 @@ class FormStyle extends StyleBase<FormStyle> {
 
   static FormStyle defaultTheme(BuildContext context) {
     return FormStyle(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         centerTitle: false,
         leading: IconButton(
           onPressed: () {},

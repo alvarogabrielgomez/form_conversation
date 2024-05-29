@@ -241,7 +241,7 @@ class _C6PageState extends State<C6Page> {
               label: 'ENVIAR INFORMAÇÕES',
               backgroundColor: const Color(0xFFFCCD16),
               onPressed: () {
-                print(controller.getAllFormData().toString());
+                debugPrint(controller.getAllFormData().toString());
               },
             ),
           ),

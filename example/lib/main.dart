@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: const Color(0xFF222222),
-          background: const Color(0xFF000000),
+          surface: const Color(0xFF000000),
         ),
       ),
       home: const C6Page(),
